@@ -1,0 +1,28 @@
+//ground tiles
+spriteset (spriteset_concrete_tile_elevated, "gfx/ground_tiles.png") {
+    [10, 10, 64, 39, -31, -8,]
+}
+
+spriteset (spriteset_concrete, "gfx/ground_tiles.png") {
+    [10, 10, 64, 39, -31, 0,]
+}
+
+//jetty/foundations
+spriteset (spriteset_jetty_se_nw, "gfx/ground_tiles.png") {
+    [10, 50, 64, 39, -31, -7],
+}
+spriteset (spriteset_jetty_ne_sw, "gfx/ground_tiles.png") {
+    [80, 50, 64, 39, -31, -7],
+}
+spriteset (spriteset_jetty_slope_nw_se, "gfx/ground_tiles.png") {
+    [150, 50, 64, 39, -31, -7],
+}
+spriteset (spriteset_jetty_slope_ne_sw, "gfx/ground_tiles.png") {
+    [220, 50, 64, 39, -31, -7],
+}
+spriteset (spriteset_jetty_slope_se_nw, "gfx/ground_tiles.png") {
+    [290, 50, 64, 39, -31, -7],
+}
+spriteset (spriteset_jetty_slope_sw_ne, "gfx/ground_tiles.png") {
+    [360, 50, 64, 39, -31, -7],
+}

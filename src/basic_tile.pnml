@@ -1,0 +1,21 @@
+#define SPRITELAYOUT
+
+#define SPRITELAYOUT_SWITCH switch(FEAT_INDUSTRYTILES, SELF, SPRITELAYOUT, nearby_tile_slope(0,0)) {
+            0: SPRITELAYOUT1;
+            1: SPRITELAYOUT4;
+            2: SPRITELAYOUT8;
+            3: SPRITELAYOUT2;
+            4: SPRITELAYOUT6;
+            5: SPRITELAYOUT5;
+            6: SPRITELAYOUT7;
+            7: SPRITELAYOUT1;
+            8: SPRITELAYOUT3;
+            9: SPRITELAYOUT4;
+            10: SPRITELAYOUT8;
+            11: SPRITELAYOUT2;
+            12: SPRITELAYOUT6;
+            13: SPRITELAYOUT5;
+            14: SPRITELAYOUT7;
+        SPRITELAYOUT1;
+}
+

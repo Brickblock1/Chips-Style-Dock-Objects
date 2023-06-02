@@ -1,0 +1,13 @@
+grf {
+    grfid: "BBDO";
+    name: string(STR_GRF_NAME);
+    desc: string(STR_GRF_DESC);
+    version: 0;
+    min_compatible_version: 0;
+    #url: ;
+}
+#include src/ground_tiles.pnml
+
+#include src/basic_tile.pnml
+
+#include src/nothing_tile.pnml

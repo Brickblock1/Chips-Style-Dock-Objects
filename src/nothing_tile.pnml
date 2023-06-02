@@ -1,0 +1,275 @@
+spritelayout SPRITELAYOUT1 {
+            building {
+                sprite: spriteset_concrete_tile_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+    spritelayout SPRITELAYOUT2 {
+            building {
+                sprite: spriteset_jetty_slope_sw_ne(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_concrete_tile_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+    }
+    spritelayout SPRITELAYOUT3 {
+            building {
+                sprite: spriteset_jetty_se_nw(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_jetty_ne_sw(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_concrete_tile_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+    }
+    spritelayout SPRITELAYOUT4 {
+            building {
+                sprite: spriteset_jetty_ne_sw(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_jetty_slope_nw_se(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_concrete_tile_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+    }
+    spritelayout SPRITELAYOUT5 {
+            building {
+                sprite: spriteset_jetty_slope_ne_sw(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_jetty_slope_nw_se(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_concrete_tile_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+    }
+    spritelayout SPRITELAYOUT6 {
+            building {
+                sprite: spriteset_jetty_slope_ne_sw(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_jetty_se_nw(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_concrete_tile_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+    }
+    spritelayout SPRITELAYOUT7 {
+            building {
+                sprite: spriteset_jetty_slope_se_nw(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_concrete_tile_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+    }
+    spritelayout SPRITELAYOUT8 {
+            building {
+                sprite: spriteset_jetty_slope_se_nw(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_jetty_slope_sw_ne(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_concrete_tile_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+    }
