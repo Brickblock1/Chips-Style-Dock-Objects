@@ -1,21 +1,534 @@
-#define SPRITELAYOUT
-
-#define SPRITELAYOUT_SWITCH switch(FEAT_INDUSTRYTILES, SELF, SPRITELAYOUT, nearby_tile_slope(0,0)) {
-            0: SPRITELAYOUT1;
-            1: SPRITELAYOUT4;
-            2: SPRITELAYOUT8;
-            3: SPRITELAYOUT2;
-            4: SPRITELAYOUT6;
-            5: SPRITELAYOUT5;
-            6: SPRITELAYOUT7;
-            7: SPRITELAYOUT1;
-            8: SPRITELAYOUT3;
-            9: SPRITELAYOUT4;
-            10: SPRITELAYOUT8;
-            11: SPRITELAYOUT2;
-            12: SPRITELAYOUT6;
-            13: SPRITELAYOUT5;
-            14: SPRITELAYOUT7;
-        SPRITELAYOUT1;
+spritelayout ITEM_AFTER_VIEWS1 {
+            building {
+                sprite: spriteset_concrete_tile_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_ITEM_AFTER_VIEWS_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: (nearby_tile_object_type(0,0)  == 0);
+            }
+}
+spritelayout ITEM_AFTER_VIEWS2 {
+            building {
+                sprite: spriteset_jetty_slope_sw_ne(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_concrete_tile_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_ITEM_AFTER_VIEWS_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: (nearby_tile_object_type(0,0)  == 0);
+            }
+    }
+spritelayout ITEM_AFTER_VIEWS3 {
+            building {
+                sprite: spriteset_jetty_se_nw(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: (nearby_tile_water_class(1,0) == WATER_CLASS_NONE);
+            }
+            building {
+                sprite: spriteset_jetty_ne_sw(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: (nearby_tile_water_class(0,1) == WATER_CLASS_NONE);
+            }
+            building {
+                sprite: spriteset_concrete_tile_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_ITEM_AFTER_VIEWS_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: (nearby_tile_object_type(0,0)  == 0);
+            }
+            building {
+                sprite: spriteset_jetty_se_nw_no_water(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: (nearby_tile_water_class(1,0) != WATER_CLASS_NONE);
+            }
+            building {
+                sprite: spriteset_jetty_ne_sw_no_water(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: (nearby_tile_water_class(0,1) != WATER_CLASS_NONE);
+            }
+    }
+spritelayout ITEM_AFTER_VIEWS4 {
+            building {
+                sprite: spriteset_jetty_ne_sw(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: (nearby_tile_water_class(0,1) == WATER_CLASS_NONE);
+            }
+            building {
+                sprite: spriteset_jetty_slope_nw_se(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_concrete_tile_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_ITEM_AFTER_VIEWS_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: (nearby_tile_object_type(0,0)  == 0);
+            }
+            building {
+                sprite: spriteset_jetty_ne_sw_no_water(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: (nearby_tile_water_class(0,1) != WATER_CLASS_NONE);
+            }
+    }
+spritelayout ITEM_AFTER_VIEWS5 {
+            building {
+                sprite: spriteset_jetty_slope_ne_sw(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_jetty_slope_nw_se(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_concrete_tile_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_ITEM_AFTER_VIEWS_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: (nearby_tile_object_type(0,0)  == 0);
+            }
+    }
+spritelayout ITEM_AFTER_VIEWS6 {
+            building {
+                sprite: spriteset_jetty_slope_ne_sw(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_jetty_se_nw(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: (nearby_tile_water_class(1,0) == WATER_CLASS_NONE);
+            }
+            building {
+                sprite: spriteset_concrete_tile_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_ITEM_AFTER_VIEWS_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: (nearby_tile_object_type(0,0)  == 0);
+            }
+            building {
+                sprite: spriteset_jetty_se_nw_no_water(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: (nearby_tile_water_class(1,0) != WATER_CLASS_NONE);
+            }
+    }
+spritelayout ITEM_AFTER_VIEWS7 {
+            building {
+                sprite: spriteset_jetty_slope_se_nw(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_concrete_tile_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_ITEM_AFTER_VIEWS_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: (nearby_tile_object_type(0,0)  == 0);
+            }
+    }
+spritelayout ITEM_AFTER_VIEWS8 {
+            building {
+                sprite: spriteset_jetty_slope_se_nw(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_jetty_slope_sw_ne(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_concrete_tile_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_ITEM_AFTER_VIEWS_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: (nearby_tile_object_type(0,0)  == 0);
+            }
+    }
+spritelayout ITEM_AFTER_VIEWS9 {
+            building {
+                sprite: spriteset_concrete_tile(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_ITEM_AFTER_VIEWS(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: (nearby_tile_object_type(0,0)  == 0);
+            }
+}spritelayout ITEM_AFTER_VIEWS_purchase {
+            building {
+                sprite: spriteset_jetty_se_nw(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_jetty_ne_sw(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_concrete_tile_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_ITEM_AFTER_VIEWS_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
 }
 
+
+
+switch(FEAT_OBJECTS, SELF, ITEM_AFTER_VIEWS, nearby_tile_slope(0,0) + ((nearby_tile_water_class(0,0) == WATER_CLASS_NONE && nearby_tile_slope(0,0) == 0)*100)) {
+            0: ITEM_AFTER_VIEWS3;
+            1: ITEM_AFTER_VIEWS4;
+            2: ITEM_AFTER_VIEWS8;
+            3: ITEM_AFTER_VIEWS2;
+            4: ITEM_AFTER_VIEWS6;
+            5: ITEM_AFTER_VIEWS5;
+            6: ITEM_AFTER_VIEWS7;
+            7: ITEM_AFTER_VIEWS1;
+            8: ITEM_AFTER_VIEWS3;
+            9: ITEM_AFTER_VIEWS4;
+            10: ITEM_AFTER_VIEWS8;
+            11: ITEM_AFTER_VIEWS2;
+            12: ITEM_AFTER_VIEWS6;
+            13: ITEM_AFTER_VIEWS5;
+            14: ITEM_AFTER_VIEWS7;
+        ITEM_AFTER_VIEWS9;
+}

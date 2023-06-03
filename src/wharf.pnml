@@ -1,0 +1,227 @@
+//SMALL SILO
+
+#define ITEM_ID 170
+
+#define ITEM_SIZE 1,1
+
+#define NUM_VIEWS 1
+
+#define OTHER_FLAGS  
+
+#define ITEM_NAME wharf_small_silo
+
+#define SPRITE_FILE "gfx/wharf.png"
+
+#define ITEM_COLOUR 46
+
+
+
+#define X_START 440
+
+#define Y_START 10
+
+#define X_OFFSET 0
+
+#define Y_OFFSET 0
+
+#define ITEM_AFTER_VIEWS wharf_small_silo
+
+#include "src/spriteset_large_new.pnml"
+
+#include "src/basic_tile.pnml"
+
+#include "src/template_object_item.pnml"
+
+//medium SILO
+
+#define ITEM_ID 171
+
+#define ITEM_SIZE 1,1
+
+#define NUM_VIEWS 1
+
+#define OTHER_FLAGS  
+
+#define ITEM_NAME wharf_medium_silo
+
+#define SPRITE_FILE "gfx/wharf.png"
+
+#define ITEM_COLOUR 46
+
+
+
+#define X_START 580
+
+#define Y_START 10
+
+#define X_OFFSET 0
+
+#define Y_OFFSET 0
+
+#define ITEM_AFTER_VIEWS wharf_medium_silo
+
+#include "src/spriteset_large_new.pnml"
+
+#include "src/basic_tile.pnml"
+
+#include "src/template_object_item.pnml"
+
+//BUILDING
+
+#define ITEM_ID 172
+
+#define ITEM_SIZE 1,1
+
+#define NUM_VIEWS 1
+
+#define OTHER_FLAGS  
+
+#define ITEM_NAME wharf_building
+
+#define SPRITE_FILE "gfx/wharf.png"
+
+#define ITEM_COLOUR 46
+
+
+
+#define X_START 510
+
+#define Y_START 10
+
+#define X_OFFSET -4
+
+#define Y_OFFSET 0
+
+#define ITEM_AFTER_VIEWS wharf_building
+
+#include "src/spriteset_large_new.pnml"
+
+#include "src/basic_tile.pnml"
+
+#include "src/template_object_item.pnml"
+
+//WAREHOUSE
+
+#define ITEM_ID 173
+
+#define ITEM_SIZE 1,1
+
+#define NUM_VIEWS 1
+
+#define OTHER_FLAGS  
+
+#define ITEM_NAME wharf_warehouse
+
+#define SPRITE_FILE "gfx/wharf.png"
+
+#define ITEM_COLOUR 46
+
+
+
+#define X_START 650
+
+#define Y_START 10
+
+#define X_OFFSET 0
+
+#define Y_OFFSET 0
+
+#define ITEM_AFTER_VIEWS wharf_warehouse
+
+#include "src/spriteset_large_new.pnml"
+
+#include "src/basic_tile.pnml"
+
+#include "src/template_object_item.pnml"
+
+//CRANES
+
+#define ITEM_ID 174
+
+#define ITEM_SIZE 1,1
+
+#define NUM_VIEWS 4
+
+#define OTHER_FLAGS  
+
+#define ITEM_NAME wharf_cranes
+
+#define SPRITE_FILE "gfx/wharf.png"
+
+#define ITEM_COLOUR 46
+
+#define Y_START 110
+
+
+
+#define X_START 440
+
+#define X_OFFSET 0
+
+#define Y_OFFSET 0
+
+#define ITEM_AFTER_VIEWS wharf_cranes_view_0
+
+#include "src/spriteset_large_new.pnml"
+
+#include "src/basic_tile.pnml"
+
+
+
+#define X_START 510
+
+#define X_OFFSET 0
+
+#define Y_OFFSET 0
+
+#define ITEM_AFTER_VIEWS wharf_cranes_view_1
+
+#include "src/spriteset_large_new.pnml"
+
+#include "src/basic_tile.pnml"
+
+
+
+#define X_START 580
+
+#define X_OFFSET 0
+
+#define Y_OFFSET 0
+
+#define ITEM_AFTER_VIEWS wharf_cranes_view_2
+
+#include "src/spriteset_large_new.pnml"
+
+#include "src/basic_tile.pnml"
+
+
+
+#define X_START 650
+
+#define X_OFFSET 0
+
+#define Y_OFFSET 0
+
+#define ITEM_AFTER_VIEWS wharf_cranes_view_3
+
+#include "src/spriteset_large_new.pnml"
+
+#include "src/basic_tile.pnml"
+
+
+
+switch(FEAT_OBJECTS, SELF, ITEM_NAME, view) {
+            0: ITEM_NAME_view_0;
+            1: ITEM_NAME_view_1;
+            2: ITEM_NAME_view_2;
+            3: ITEM_NAME_view_3;
+}
+
+switch(FEAT_OBJECTS, SELF, ITEM_NAME_purchase, view) {
+            0: ITEM_NAME_view_0_purchase;
+            1: ITEM_NAME_view_1_purchase;
+            2: ITEM_NAME_view_2_purchase;
+            3: ITEM_NAME_view_3_purchase;
+}
+
+#include "src/template_object_item.pnml"

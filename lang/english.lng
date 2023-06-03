@@ -1,0 +1,41 @@
+##grflangid 0x01
+
+STR_GRF_NAME    :CHIPS style dock objects
+STR_GRF_DESC    :Adds ur mom (placeholder)
+
+STR_CLASS_1                         :Chips style dock objects - Generic tiles
+STR_CLASS_2                         :Chips style dock objects - Industry tiles
+
+STR_empty                           :Empty
+STR_rails                           :Crane rails
+
+STR_bulk_terminal_small_silo        :Bulk terminal small silo
+STR_bulk_terminal_medium_silo       :Bulk terminal medium silo
+STR_bulk_terminal_large_silos       :Bulk terminal large silo
+STR_bulk_terminal_building          :Bulk terminal building
+STR_bulk_terminal_cranes            :Bulk terminal cranes
+
+STR_fish_farm                       :Fish farm shed
+
+STR_fishing_harbour_building        :Fishing harbour building
+STR_fishing_harbour_crane           :Fishing harbour cranes
+STR_fishing_harbour_slipway         :Fishing harbour slipway
+
+STR_liquids_terminal_small_tanks    :Bulk terminal small tanks
+STR_liquids_terminal_medium_tanks   :Bulk terminal medium tanks
+STR_liquids_terminal_large_tank     :Bulk terminal large tank
+STR_liquids_terminal_building       :Bulk terminal building
+
+STR_port_building                   :Port building
+STR_port_crane                      :Port cranes
+STR_port_ground_mog                 :Port Ground Mog
+
+STR_trading_post_warehouse          :Trading post warehouse
+STR_trading_post_building           :Trading post building
+STR_trading_post_crane              :Trading post cranes
+
+STR_wharf_small_silo                :Bulk terminal small silo
+STR_wharf_medium_silo               :Bulk terminal medium silo
+STR_wharf_building                  :Bulk terminal building
+STR_wharf_warehouse                 :Bulk terminal warehouse
+STR_wharf_cranes                    :Bulk terminal cranes

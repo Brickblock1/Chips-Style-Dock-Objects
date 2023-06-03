@@ -1,0 +1,23 @@
+
+item(FEAT_OBJECTS, item_ITEM_NAME, ITEM_ID) {
+                    property {
+                        class                   :"ITEM_CLASS";
+                        classname:              string(ITEM__CLASS_NAME);
+                        climates_available:     ALL_CLIMATES;
+                        size:                   [ITEM_SIZE];
+                        build_cost_multiplier:  0;
+                        remove_cost_multiplier: 0;
+                        introduction_date:      date(1, 1, 1);
+                        end_of_life_date:       date(5000000, 1, 1);
+                        object_flags:           bitmask(OBJ_FLAG_ANYTHING_REMOVE, OBJ_FLAG_ANIMATED, OBJ_FLAG_ON_WATER, OBJ_FLAG_DRAW_WATER, OBJ_FLAG_NO_FOUNDATIONS, OBJ_FLAG_ALLOW_BRIDGE, OTHER_FLAGS);
+                        height:                 1;
+                        num_views:              NUM_VIEWS;
+                        name: string(STR_ITEM_NAME);
+                        animation_triggers:     bitmask();
+                    }
+                    graphics {
+                        default:    ITEM_NAME;
+                        purchase:   ITEM_NAME_purchase;
+                        colour:     sw_colour(ITEM_COLOUR);
+                    }
+                }                

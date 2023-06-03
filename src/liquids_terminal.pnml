@@ -1,0 +1,135 @@
+//SMALL TANKS
+
+#define ITEM_ID 140
+
+#define ITEM_SIZE 1,1
+
+#define NUM_VIEWS 1
+
+#define OTHER_FLAGS  
+
+#define ITEM_NAME liquids_terminal_small_tanks
+
+#define SPRITE_FILE "gfx/liquids_terminal.png"
+
+#define ITEM_COLOUR 74
+
+
+
+#define X_START 440
+
+#define Y_START 110
+
+#define X_OFFSET 0
+
+#define Y_OFFSET 0
+
+#define ITEM_AFTER_VIEWS liquids_terminal_small_tanks
+
+#include "src/spriteset_large_new.pnml"
+
+#include "src/basic_tile.pnml"
+
+#include "src/template_object_item.pnml"
+
+//MEDIUM TANKS
+
+#define ITEM_ID 141
+
+#define ITEM_SIZE 1,1
+
+#define NUM_VIEWS 1
+
+#define OTHER_FLAGS  
+
+#define ITEM_NAME liquids_terminal_medium_tanks
+
+#define SPRITE_FILE "gfx/liquids_terminal.png"
+
+#define ITEM_COLOUR 74
+
+
+
+#define X_START 510
+
+#define Y_START 10
+
+#define X_OFFSET 0
+
+#define Y_OFFSET 0
+
+#define ITEM_AFTER_VIEWS liquids_terminal_medium_tanks
+
+#include "src/spriteset_large_new.pnml"
+
+#include "src/basic_tile.pnml"
+
+#include "src/template_object_item.pnml"
+
+//LARGE TANK
+
+#define ITEM_ID 142
+
+#define ITEM_SIZE 1,1
+
+#define NUM_VIEWS 1
+
+#define OTHER_FLAGS  
+
+#define ITEM_NAME liquids_terminal_large_tank
+
+#define SPRITE_FILE "gfx/liquids_terminal.png"
+
+#define ITEM_COLOUR 74
+
+
+
+#define X_START 510
+
+#define Y_START 110
+
+#define X_OFFSET 0
+
+#define Y_OFFSET 0
+
+#define ITEM_AFTER_VIEWS liquids_terminal_large_tank
+
+#include "src/spriteset_large_new.pnml"
+
+#include "src/basic_tile.pnml"
+
+#include "src/template_object_item.pnml"
+
+//BUILDING
+
+#define ITEM_ID 143
+
+#define ITEM_SIZE 1,1
+
+#define NUM_VIEWS 1
+
+#define OTHER_FLAGS  
+
+#define ITEM_NAME liquids_terminal_building
+
+#define SPRITE_FILE "gfx/liquids_terminal.png"
+
+#define ITEM_COLOUR 74
+
+
+
+#define X_START 440
+
+#define Y_START 10
+
+#define X_OFFSET 0
+
+#define Y_OFFSET 0
+
+#define ITEM_AFTER_VIEWS liquids_terminal_building
+
+#include "src/spriteset_large_new.pnml"
+
+#include "src/basic_tile.pnml"
+
+#include "src/template_object_item.pnml"

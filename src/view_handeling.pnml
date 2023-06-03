@@ -1,0 +1,31 @@
+switch(FEAT_OBJECTS, SELF, ITEM_NAME_1_VIEW, view) {
+            1: ITEM_NAME_view_0;
+}
+
+switch(FEAT_OBJECTS, SELF, ITEM_NAME_1_VIEW_purchase, view) {
+            0: ITEM_NAME_view_0_purchase;
+}
+
+switch(FEAT_OBJECTS, SELF, ITEM_NAME_2_VIEWS, view) {
+            1: ITEM_NAME_view_0;
+            2: ITEM_NAME_view_1;
+}
+
+switch(FEAT_OBJECTS, SELF, ITEM_NAME_2_VIEWS_purchase, view) {
+            0: ITEM_NAME_view_0_purchase;
+            1: ITEM_NAME_view_1_purchase;
+}
+
+switch(FEAT_OBJECTS, SELF, ITEM_NAME_4_VIEWS, view) {
+            1: ITEM_NAME_view_0;
+            2: ITEM_NAME_view_1;
+            3: ITEM_NAME_view_2;
+            4: ITEM_NAME_view_3;
+}
+
+switch(FEAT_OBJECTS, SELF, ITEM_NAME_4_VIEWS_purchase, view) {
+            0: ITEM_NAME_view_0_purchase;
+            1: ITEM_NAME_view_1_purchase;
+            2: ITEM_NAME_view_2_purchase;
+            3: ITEM_NAME_view_3_purchase;
+}

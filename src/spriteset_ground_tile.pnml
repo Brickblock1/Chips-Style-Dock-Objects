@@ -1,0 +1,7 @@
+spriteset (spriteset_ITEM_AFTER_VIEWS_elevated, SPRITE_FILE) {
+    [80, 10, 64, 31, -31, -8]
+}
+
+spriteset (spriteset_ITEM_AFTER_VIEWS, SPRITE_FILE) {
+    [80, 10, 64, 31, -31, 0]
+}

@@ -1,28 +1,35 @@
 //ground tiles
 spriteset (spriteset_concrete_tile_elevated, "gfx/ground_tiles.png") {
-    [10, 10, 64, 39, -31, -8,]
+    [80, 10, 64, 31, -31, -8]
 }
 
-spriteset (spriteset_concrete, "gfx/ground_tiles.png") {
-    [10, 10, 64, 39, -31, 0,]
+spriteset (spriteset_concrete_tile, "gfx/ground_tiles.png") {
+    [80, 10, 64, 31, -31, 0]
 }
 
 //jetty/foundations
 spriteset (spriteset_jetty_se_nw, "gfx/ground_tiles.png") {
-    [10, 50, 64, 39, -31, -7],
+    [10, 50, 64, 39, -31, -7]
 }
 spriteset (spriteset_jetty_ne_sw, "gfx/ground_tiles.png") {
-    [80, 50, 64, 39, -31, -7],
+    [80, 50, 64, 39, -31, -7]
 }
 spriteset (spriteset_jetty_slope_nw_se, "gfx/ground_tiles.png") {
-    [150, 50, 64, 39, -31, -7],
+    [150, 50, 64, 39, -31, -7]
 }
 spriteset (spriteset_jetty_slope_ne_sw, "gfx/ground_tiles.png") {
-    [220, 50, 64, 39, -31, -7],
+    [220, 50, 64, 39, -31, -7]
 }
 spriteset (spriteset_jetty_slope_se_nw, "gfx/ground_tiles.png") {
-    [290, 50, 64, 39, -31, -7],
+    [290, 50, 64, 39, -31, -7]
 }
 spriteset (spriteset_jetty_slope_sw_ne, "gfx/ground_tiles.png") {
-    [360, 50, 64, 39, -31, -7],
+    [360, 50, 64, 39, -31, -7]
+}
+
+spriteset (spriteset_jetty_se_nw_no_water, "gfx/ground_tiles.png") {
+    [10, 90, 64, 39, -31, -7]
+}
+spriteset (spriteset_jetty_ne_sw_no_water, "gfx/ground_tiles.png") {
+    [80, 90, 64, 39, -31, -7]
 }

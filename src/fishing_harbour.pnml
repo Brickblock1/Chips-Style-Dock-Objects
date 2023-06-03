@@ -1,0 +1,178 @@
+//BUILDING
+
+#define ITEM_ID 120
+
+#define NUM_VIEWS 1
+
+#define ITEM_NAME fishing_harbour_building
+
+#define SPRITE_FILE "gfx/fishing_harbour.png"
+
+#define ITEM_COLOUR 90
+
+
+
+#define X_START 80
+
+#define X_OFFSET 0
+
+#define Y_OFFSET -2
+
+#define ITEM_AFTER_VIEWS fishing_harbour_building
+
+#include "src/spriteset1.pnml"
+
+#include "src/basic_tile.pnml"
+
+#include "src/template_object_item.pnml"
+
+//CRANES
+
+#define ITEM_ID 121
+
+#define NUM_VIEWS 2
+
+#define ITEM_NAME fishing_harbour_crane
+
+#define SPRITE_FILE "gfx/fishing_harbour.png"
+
+#define ITEM_COLOUR 90
+
+
+
+#define X_START 150
+
+#define X_OFFSET 8
+
+#define Y_OFFSET -7
+
+#define ITEM_AFTER_VIEWS fishing_harbour_crane_view_0_random_0
+
+#include "src/spriteset1.pnml"
+
+#include "src/basic_tile.pnml"
+
+
+#define X_START 150
+
+#define X_OFFSET -10
+
+#define Y_OFFSET -19
+
+#define ITEM_AFTER_VIEWS fishing_harbour_crane_view_0_random_1
+
+#include "src/spriteset1.pnml"
+
+#include "src/basic_tile.pnml"
+
+
+#define X_START 220
+
+#define X_OFFSET 8
+
+#define Y_OFFSET -14
+
+#define ITEM_AFTER_VIEWS fishing_harbour_crane_view_1
+
+#include "src/spriteset1.pnml"
+
+#include "src/basic_tile.pnml"
+
+random_switch(FEAT_OBJECTS, SELF, ITEM_NAME_view_0) {
+            1: ITEM_NAME_view_0_random_0;
+            1: ITEM_NAME_view_0_random_1;
+}
+
+switch(FEAT_OBJECTS, SELF, ITEM_NAME, view) {
+            0: ITEM_NAME_view_0;
+            1: ITEM_NAME_view_1;
+}
+
+switch(FEAT_OBJECTS, SELF, ITEM_NAME_purchase, view) {
+            0: ITEM_NAME_view_0_random_1_purchase;
+            1: ITEM_NAME_view_1_purchase;
+}
+
+#include "src/template_object_item.pnml"
+
+//SLIPWAY
+
+#define ITEM_ID 122
+
+#define ITEM_SIZE 1,2
+
+#define NUM_VIEWS 1
+
+#define OTHER_FLAGS OBJ_FLAG_NOT_ON_LAND
+
+#define ITEM_NAME fishing_harbour_slipway
+
+#define SPRITE_FILE "gfx/fishing_harbour.png"
+
+#define ITEM_COLOUR 90
+
+
+
+#define X_START 440
+
+#define Y_START 110
+
+#define X_OFFSET 0
+
+#define Y_OFFSET 24
+
+#define ITEM_AFTER_VIEWS fishing_harbour_slipway_tile_0
+
+#include "src/spriteset_large.pnml"
+
+#include "src/empty_tile.pnml"
+
+#define X_START 510
+
+#define Y_START 110
+
+#define X_OFFSET 0
+
+#define Y_OFFSET 8
+
+#define ITEM_AFTER_VIEWS fishing_harbour_slipway_tile_1
+
+#include "src/spriteset_large.pnml"
+
+#include "src/empty_tile.pnml"
+
+switch(FEAT_OBJECTS, SELF, ITEM_NAME, relative_y) {
+            0: ITEM_NAME_tile_0;
+            1: ITEM_NAME_tile_1;
+}
+
+spritelayout ITEM_NAME_purchase {
+            building {
+                sprite: spriteset_fishing_harbour_slipway_tile_0_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: -8;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+            building {
+                sprite: spriteset_fishing_harbour_slipway_tile_1_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 8;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: 0;
+            }
+}
+
+#include "src/template_object_item.pnml"

@@ -1,0 +1,139 @@
+//BUILDING
+
+#define ITEM_ID 150
+
+#define ITEM_SIZE 1,1
+
+#define NUM_VIEWS 1
+
+#define OTHER_FLAGS  
+
+#define ITEM_NAME port_building
+
+#define SPRITE_FILE "gfx/port.png"
+
+#define ITEM_COLOUR 39
+
+
+
+#define X_START 440
+
+#define Y_START 10
+
+#define X_OFFSET 0
+
+#define Y_OFFSET -2
+
+#define ITEM_AFTER_VIEWS port_building
+
+#include "src/spriteset_large.pnml"
+
+#include "src/basic_tile.pnml"
+
+#include "src/template_object_item.pnml"
+
+//CRANES
+
+#define ITEM_ID 151
+
+#define ITEM_SIZE 1,1
+
+#define NUM_VIEWS 2
+
+#define OTHER_FLAGS  
+
+#define ITEM_NAME port_crane
+
+#define SPRITE_FILE "gfx/port.png"
+
+#define ITEM_COLOUR 39
+
+
+
+#define X_START 150
+
+#define X_OFFSET 8
+
+#define Y_OFFSET -7
+
+#define ITEM_AFTER_VIEWS port_crane_view_0_random_0
+
+#include "src/spriteset1.pnml"
+
+#include "src/basic_tile.pnml"
+
+
+#define X_START 150
+
+#define X_OFFSET -10
+
+#define Y_OFFSET -19
+
+#define ITEM_AFTER_VIEWS port_crane_view_0_random_1
+
+#include "src/spriteset1.pnml"
+
+#include "src/basic_tile.pnml"
+
+
+#define X_START 220
+
+#define X_OFFSET 8
+
+#define Y_OFFSET -14
+
+#define ITEM_AFTER_VIEWS port_crane_view_1
+
+#include "src/spriteset1.pnml"
+
+#include "src/basic_tile.pnml"
+
+random_switch(FEAT_OBJECTS, SELF, ITEM_NAME_view_0) {
+            1: ITEM_NAME_view_0_random_0;
+            1: ITEM_NAME_view_0_random_1;
+}
+
+switch(FEAT_OBJECTS, SELF, ITEM_NAME, view) {
+            0: ITEM_NAME_view_0;
+            1: ITEM_NAME_view_1;
+}
+
+switch(FEAT_OBJECTS, SELF, ITEM_NAME_purchase, view) {
+            0: ITEM_NAME_view_0_random_1_purchase;
+            1: ITEM_NAME_view_1_purchase;
+}
+
+#include "src/template_object_item.pnml"
+
+
+//GROUND MOG
+
+#define ITEM_ID 152
+
+#define ITEM_SIZE 1,1
+
+#define NUM_VIEWS 1
+
+#define OTHER_FLAGS  
+
+#define ITEM_NAME port_ground_mog
+
+#define SPRITE_FILE "gfx/port.png"
+
+#define ITEM_COLOUR 39
+
+
+
+#define X_START 360
+
+#define X_OFFSET 0
+
+#define Y_OFFSET -2
+
+#define ITEM_AFTER_VIEWS port_ground_mog
+
+#include "src/spriteset1.pnml"
+
+#include "src/basic_tile.pnml"
+
+#include "src/template_object_item.pnml"

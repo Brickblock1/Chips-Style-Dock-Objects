@@ -1,0 +1,25 @@
+#define ITEM_ID 110
+
+#define ITEM_NAME fish_farm
+
+#define SPRITE_FILE "gfx/fish_farm.png"
+
+#define X_START 80
+
+#define Y_START 10
+
+#define X_OFFSET 0
+
+#define Y_OFFSET 0
+
+#define ITEM_COLOUR 52
+
+
+
+#define ITEM_AFTER_VIEWS fish_farm
+
+#include "src/basic_tile.pnml"
+
+#include "src/spriteset1.pnml"
+
+#include "src/template_object_item.pnml"

@@ -1,0 +1,15 @@
+spritelayout ITEM_AFTER_VIEWS {
+            building {
+                sprite: spriteset_ITEM_AFTER_VIEWS_elevated(0);
+                recolour_mode: RECOLOUR_REMAP;
+                palette: PALETTE_USE_DEFAULT;
+                xoffset: 0;
+                yoffset: 0;
+                zoffset: 0;
+                xextent: 16;
+                yextent: 16;
+                zextent: 32;
+                always_draw: 1;
+                hide_sprite: (nearby_tile_object_type(0,0)  == 0);
+            }
+}

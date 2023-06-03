@@ -1,0 +1,107 @@
+//WAREHOUSE
+
+#define ITEM_ID 160
+
+#define ITEM_NAME trading_post_warehouse
+
+#define SPRITE_FILE "gfx/trading_post.png"
+
+#define X_START 80
+
+#define Y_START 10
+
+#define X_OFFSET 0
+
+#define Y_OFFSET -2
+
+#define ITEM_COLOUR 52
+
+
+
+#define ITEM_AFTER_VIEWS trading_post_warehouse
+
+#include "src/basic_tile.pnml"
+
+#include "src/spriteset1.pnml"
+
+#include "src/template_object_item.pnml"
+
+//BUILDING
+
+#define ITEM_ID 161
+
+#define ITEM_NAME trading_post_building
+
+#define SPRITE_FILE "gfx/trading_post.png"
+
+#define X_START 360
+
+#define Y_START 10
+
+#define X_OFFSET 0
+
+#define Y_OFFSET -2
+
+#define ITEM_COLOUR 52
+
+
+
+#define ITEM_AFTER_VIEWS trading_post_building
+
+#include "src/basic_tile.pnml"
+
+#include "src/spriteset1.pnml"
+
+#include "src/template_object_item.pnml"
+
+//CRANES
+
+#define ITEM_ID 162
+
+#define NUM_VIEWS 2
+
+#define ITEM_NAME trading_post_crane
+
+#define SPRITE_FILE "gfx/trading_post.png"
+
+#define ITEM_COLOUR 52
+
+
+
+#define X_START 150
+
+#define X_OFFSET 0
+
+#define Y_OFFSET -3
+
+#define ITEM_AFTER_VIEWS trading_post_crane_view_1
+
+#include "src/spriteset1.pnml"
+
+#include "src/basic_tile.pnml"
+
+
+
+#define X_START 220
+
+#define X_OFFSET 0
+
+#define Y_OFFSET -3
+
+#define ITEM_AFTER_VIEWS trading_post_crane_view_0
+
+#include "src/spriteset1.pnml"
+
+#include "src/basic_tile.pnml"
+
+switch(FEAT_OBJECTS, SELF, ITEM_NAME, view) {
+            0: ITEM_NAME_view_0;
+            1: ITEM_NAME_view_1;
+}
+
+switch(FEAT_OBJECTS, SELF, ITEM_NAME_purchase, view) {
+            0: ITEM_NAME_view_0_purchase;
+            1: ITEM_NAME_view_1_purchase;
+}
+
+#include "src/template_object_item.pnml"

@@ -4,10 +4,36 @@ grf {
     desc: string(STR_GRF_DESC);
     version: 0;
     min_compatible_version: 0;
-    #url: ;
+    //url: ;
 }
-#include src/ground_tiles.pnml
 
-#include src/basic_tile.pnml
+#include "src/colour.pnml"
 
-#include src/nothing_tile.pnml
+#include "src/ground_tiles.pnml"
+
+
+
+#define ITEM_CLASS BBDO
+
+#define ITEM__CLASS_NAME STR_CLASS_1
+
+#include "src/other_tiles.pnml"
+
+
+#define ITEM_CLASS BBDI
+
+#define ITEM__CLASS_NAME STR_CLASS_2
+
+#include "src/bulk_terminal.pnml"
+
+#include "src/fish_farm.pnml"
+
+#include "src/fishing_harbour.pnml"
+
+#include "src/liquids_terminal.pnml"
+
+#include "src/port.pnml"
+
+#include "src/trading_post.pnml"
+
+#include "src/wharf.pnml"
