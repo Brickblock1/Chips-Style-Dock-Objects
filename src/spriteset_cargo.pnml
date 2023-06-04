@@ -1,0 +1,6 @@
+spriteset (spriteset_ITEM_AFTER_VIEWS, SPRITE_FILE) {
+    [X_START, Y_START, 64, 65, -31+X_OFFSET, -34+Y_OFFSET]
+}
+spriteset (spriteset_ITEM_AFTER_VIEWS_elevated, SPRITE_FILE) {
+    [X_START, Y_START, 64, 65, -31+X_OFFSET, -42+Y_OFFSET]
+}

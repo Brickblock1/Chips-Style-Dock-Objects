@@ -1,13 +1,57 @@
 ##grflangid 0x01
 
 STR_GRF_NAME    :CHIPS style dock objects
-STR_GRF_DESC    :Adds ur mom (placeholder)
+STR_GRF_DESC    :A object set which can be used to detail your harbours and docks. The colours on the buildings will match nearby FIRS 4 industries. All graphics and some code taken from FIRS and CHIPS. {COPYRIGHT} 2023 Brickblock1 License GPLv2
 
 STR_CLASS_1                         :Chips style dock objects - Generic tiles
 STR_CLASS_2                         :Chips style dock objects - Industry tiles
 
 STR_empty                           :Empty
 STR_rails                           :Crane rails
+
+STR_alcohol                         :Alcohol
+STR_barrels_bare_metal              :Bare metal barrels
+STR_barrels                         :Barrels
+STR_bauxite                         :Bauxite
+STR_cassava                         :Cassava
+STR_cement                          :Cement
+STR_clay                            :Clay
+STR_coal                            :Coal
+STR_coffee                          :Coffee
+STR_copper                          :Copper
+STR_copper_ore                      :Copper ore
+STR_crates                          :Crates
+STR_crates_white                    :White crates
+STR_fruit_vegetable                 :Fruit
+STR_iron_ore                        :Iron ore
+STR_kaolin                          :China clay
+STR_limestone                       :Limestone
+STR_lumber                          :Timber
+STR_manganese_ore                   :Manganese
+STR_metal_coil                      :Metal coils
+STR_metal_mixed                     :Mixed Metals
+STR_metal_slab                      :Metal slabs
+STR_nitrates                        :Nitrates
+STR_nuts                            :Nuts
+STR_paper                           :Paper
+STR_peat                            :Peat
+STR_phosphate                       :Phosphate
+STR_pipe                            :Pipes
+STR_pyrite_ore                      :Pyrite ore
+STR_rubber                          :Rubber
+STR_sand                            :Sand
+STR_scrap_metal                     :Scrap metal
+STR_slag                            :Slag
+STR_soda_ash                        :Soda ash
+STR_stone                           :Stone
+STR_sugar_beet                      :Sugar beet
+STR_sugar                           :Sugar
+STR_sugarcane                       :Sugarcane
+STR_sulphur                         :Sulphur
+STR_tyres                           :Tyres
+STR_vehicle_bodies                  :Vehicle bodies
+STR_vehicles                        :Vehicles
+STR_wood                            :Logs
 
 STR_bulk_terminal_small_silo        :Bulk terminal small silo
 STR_bulk_terminal_medium_silo       :Bulk terminal medium silo

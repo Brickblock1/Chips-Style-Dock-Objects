@@ -85,3 +85,262 @@ switch(FEAT_OBJECTS, SELF, ITEM_NAME_purchase, view) {
 }
 
 #include "src/template_object_item.pnml"
+
+#define CARGO_NAME alcohol
+
+#define ITEM_ID 2
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME barrels_bare_metal
+
+#define ITEM_ID 3
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME barrels
+
+#define ITEM_ID 4
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME bauxite
+
+#define ITEM_ID 5
+
+#include "src/cargo_sprites.pnml"
+
+
+#define CARGO_NAME cassava
+
+#define ITEM_ID 6
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME cement
+
+#define ITEM_ID 7
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME clay
+
+#define ITEM_ID 8
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME coal
+
+#define ITEM_ID 9
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME coffee
+
+#define ITEM_ID 10
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME copper
+
+#define ITEM_ID 11
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME copper_ore
+
+#define ITEM_ID 12
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME crates
+
+#define ITEM_ID 13
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME crates_white
+
+#define ITEM_ID 14
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME fruit_vegetable
+
+#define ITEM_ID 15
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME iron_ore
+
+#define ITEM_ID 16
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME kaolin
+
+#define ITEM_ID 17
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME limestone
+
+#define ITEM_ID 18
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME lumber
+
+#define ITEM_ID 19
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME manganese_ore
+
+#define ITEM_ID 20
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME metal_coil
+
+#define ITEM_ID 21
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME metal_mixed
+
+#define ITEM_ID 22
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME metal_slab
+
+#define ITEM_ID 23
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME nitrates
+
+#define ITEM_ID 24
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME nuts
+
+#define ITEM_ID 25
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME paper
+
+#define ITEM_ID 26
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME peat
+
+#define ITEM_ID 27
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME phosphate
+
+#define ITEM_ID 28
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME pipe
+
+#define ITEM_ID 29
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME pyrite_ore
+
+#define ITEM_ID 30
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME rubber
+
+#define ITEM_ID 31
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME sand
+
+#define ITEM_ID 32
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME scrap_metal
+
+#define ITEM_ID 33
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME slag
+
+#define ITEM_ID 34
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME soda_ash
+
+#define ITEM_ID 35
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME stone
+
+#define ITEM_ID 36
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME sugar_beet
+
+#define ITEM_ID 37
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME sugar
+
+#define ITEM_ID 38
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME sugarcane
+
+#define ITEM_ID 39
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME sulphur
+
+#define ITEM_ID 40
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME tyres
+
+#define ITEM_ID 41
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME vehicle_bodies
+
+#define ITEM_ID 42
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME vehicles
+
+#define ITEM_ID 43
+
+#include "src/cargo_sprites.pnml"
+
+#define CARGO_NAME wood
+
+#define ITEM_ID 44
+
+#include "src/cargo_sprites.pnml"
