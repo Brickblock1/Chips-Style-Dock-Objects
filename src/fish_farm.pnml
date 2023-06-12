@@ -1,5 +1,7 @@
 #define ITEM_ID 110
 
+#define NUM_VIEWS 1
+
 #define ITEM_NAME fish_farm
 
 #define SPRITE_FILE "gfx/fish_farm.png"
