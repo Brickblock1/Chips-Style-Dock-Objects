@@ -10,7 +10,7 @@ STR_PARAM_GROUND_0                  :Concrete (Legacy)
 STR_PARAM_GROUND_1                  :Dirty concrete 
 
 STR_PARAM_COLOURS_NAME              :Building colours
-STR_PARAM_COLOURS_DESC              :What cokours should the buildings have?
+STR_PARAM_COLOURS_DESC              :What colours should the buildings have?
 STR_PARAM_COLOURS_0                 :Match Firs 4 industries 
 STR_PARAM_COLOURS_1                 :First company colour 
 STR_PARAM_COLOURS_2                 :Grey 
