@@ -4,7 +4,36 @@ grf {
     desc: string(STR_GRF_DESC);
     version: 1;
     min_compatible_version: 1;
-    //url: ;
+    url: string(STR_URL);
+    param 1 {
+        ground {
+            type: int;
+            name: string(STR_PARAM_GROUND_NAME);
+            desc: string(STR_PARAM_GROUND_DESC);
+            min_value: 0;
+            max_value: 1;
+            def_value: 0;
+            names: {
+                0: string(STR_PARAM_GROUND_0);
+                1: string(STR_PARAM_GROUND_1);
+            };
+        }
+    }
+    param 2 {
+        company_colours {
+            type: int;
+            name: string(STR_PARAM_COLOURS_NAME);
+            desc: string(STR_PARAM_COLOURS_DESC);
+            min_value: 0;
+            max_value: 2;
+            def_value: 0;
+            names: {
+                0: string(STR_PARAM_COLOURS_0);
+                1: string(STR_PARAM_COLOURS_1);
+                2: string(STR_PARAM_COLOURS_2);
+            };
+        }
+    }
 }
 
 #include "src/colour.pnml"

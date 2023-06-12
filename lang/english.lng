@@ -2,6 +2,18 @@
 
 STR_GRF_NAME    :CHIPS style dock objects
 STR_GRF_DESC    :A object set which can be used to detail your harbours and docks. The colours on the buildings will match nearby FIRS 4 industries. All graphics and some code taken from FIRS and CHIPS. {COPYRIGHT} 2023 Brickblock1 License GPLv2
+STR_URL         :https://github.com/Brickblock1/Chips-Style-Dock-Objects
+
+STR_PARAM_GROUND_NAME               :Ground tile
+STR_PARAM_GROUND_DESC               :What graphics should the ground have?
+STR_PARAM_GROUND_0                  :Concrete (Legacy) 
+STR_PARAM_GROUND_1                  :Dirty concrete 
+
+STR_PARAM_COLOURS_NAME              :Building colours
+STR_PARAM_COLOURS_DESC              :What cokours should the buildings have?
+STR_PARAM_COLOURS_0                 :Match Firs 4 industries 
+STR_PARAM_COLOURS_1                 :First company colour 
+STR_PARAM_COLOURS_2                 :Grey 
 
 STR_CLASS_1                         :Chips style dock objects - Generic tiles
 STR_CLASS_2                         :Chips style dock objects - Industry tiles

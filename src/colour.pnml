@@ -1,4 +1,4 @@
-switch(FEAT_OBJECTS, PARENT, sw_colour, offset, [(town_index + offset) % 16]) {
+switch(FEAT_OBJECTS, PARENT, sw_colour_ind, offset, [(town_index + offset) % 16]) {
 	0: return 0;
 	1: return 1;
 	2: return 2;
@@ -16,4 +16,30 @@ switch(FEAT_OBJECTS, PARENT, sw_colour, offset, [(town_index + offset) % 16]) {
 	14: return 14;
 	15: return 14;
 	return 0;
+}
+
+switch(FEAT_OBJECTS, PARENT, sw_colour_cc, getbits(extra_callback_info1, 0, 8)) {
+	0: return 0;
+	1: return 1;
+	2: return 2;
+	3: return 3;
+	4: return 4;
+	5: return 5;
+	6: return 6;
+	7: return 7;
+	8: return 8;
+	9: return 9;
+	10: return 10;
+	11: return 11;
+	12: return 12;
+	13: return 13;
+	14: return 14;
+	15: return 15;
+	return 0;
+}
+
+switch(FEAT_OBJECTS, PARENT, sw_colour, offset, company_colours) {
+	0: sw_colour_ind(offset);
+	1: sw_colour_cc;
+	2: 14;
 }
