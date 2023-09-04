@@ -6,7 +6,7 @@ grf {
     min_compatible_version: 1;
     url: string(STR_URL);
     param 1 {
-        ground {
+        ground_param {
             type: int;
             name: string(STR_PARAM_GROUND_NAME);
             desc: string(STR_PARAM_GROUND_DESC);
